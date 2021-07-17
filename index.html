@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <section>
+        <h1>Rock Paper Scissors</h1>
+        <h3 id="Player">Player</h3>
+        
+        <figure id="User">
+            <img src="pedra.jpg" alt="Rock">
+            <img src="papel.jpg" alt="Paper">
+            <img src="tesoura.jpg" alt="Scissors">
+        </figure>
+        
+        <form name="FormRockPaperScissors" id="input">
+            <input type="radio" name="Game" id="Rock"> Rock
+            <input type="radio" name="Game" id="Paper"> Paper
+            <input type="radio" name="Game" id="Scissors"> Scissors
+        </form>
+
+        <p>
+            <input type="button" value="Play" onclick="Play()" class="button">
+            <input type="button" value="Clean" onclick="Clean()" class="button">
+        </p>
+
+        <h3>Computer</h3>
+      
+        <figure id="Computador">
+       
+            <img src="pcvazio.png" alt="Computer" id="Computer">
+       
+        </figure>   
+
+        <h3 id="Score"> </h3>
+
+    </section>    
+
+        <script src="script.js"></script>
+</body>
+</html>
